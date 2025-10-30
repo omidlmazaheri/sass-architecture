@@ -1,0 +1,55 @@
+.button {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background: rgb(88.8729508197, 155.4610655738, 253.6270491803);
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #f8f9fa;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+.card h3 {
+  margin-top: 0;
+  color: #0d6efd;
+}
+.card p {
+  line-height: 1.7;
+}
+
+* {
+  font-family: tahoma;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #121212;
+  color: #f8f9fa;
+  padding: 2rem;
+}
+
+.container {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #0d6efd;
+}/*# sourceMappingURL=main.css.map */
